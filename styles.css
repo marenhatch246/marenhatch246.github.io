@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(246, 242, 242);
+    color: rgb(43, 14, 14)
+}
+
+
+
+header {
+    background-color: rgb(220, 184, 184);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    margin-top: -4px;
+}
+
+.intro {
+    margin-left: 50px;
+}
+
+.intro {
+    max-width: 500px;
+    text-align: left;
+}
+
+.contents {
+    background-color: rgb(220, 184, 184);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    color: seagreen;
+}
+
+
+.contents a {
+    float: left;
+    color: #f2f2f5;
+    text-align: center;
+    padding: 0px 20px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.contents a:hover {
+    background-color: #4c0505;
+    color: rgb(243, 240, 240);
+    font-style: italic;
+}
+
+.centered {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+a:link {
+    color: rgb(225, 15, 155);
+}
+
+a:visited {
+    color: rgb(225, 15, 155)
+}
+
+a:hover {
+    color: hotpink
+}
+
+a:active {
+    color: rgb(76, 32, 54)
+}
+
+
+#aboutme {
+    margin-top: 20px;
+    color: rgb(87, 0, 0);
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    /* Add space between children */
+}
+
+.aboutme {
+    max-width: 500px;
+}
+
+footer {
+    background-color: rgb(220, 184, 184);
+}
