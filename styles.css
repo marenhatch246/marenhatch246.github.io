@@ -1,22 +1,37 @@
 body {
-    background-color: rgb(246, 242, 242);
-    color: rgb(43, 14, 14)
+    color: rgb(54, 19, 19);
+    max-width: 1200px;
+    margin: auto;
+
+    /* <weight>: Use a value from 400 to 900 */
+    font-family: 'Cinzel', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: large;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+section {
+    margin: 50px;
+}
 
 header {
     background-color: rgb(220, 184, 184);
     display: flex;
+    flex-wrap: wrap;
     justify-content: left;
     align-items: center;
     gap: 20px;
     padding: 10px;
-    margin-top: -4px;
-}
-
-.intro {
-    margin-left: 50px;
+    margin-top: -5px;
 }
 
 .intro {
@@ -24,71 +39,97 @@ header {
     text-align: left;
 }
 
+
+h2 {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+
+}
+
 .contents {
     background-color: rgb(220, 184, 184);
     overflow: hidden;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-}
+    margin-bottom: -20px;
+    padding-bottom: 10px;
 
-h1 {
-    color: seagreen;
 }
-
 
 .contents a {
     float: left;
     color: #f2f2f5;
     text-align: center;
-    padding: 0px 20px 10px;
     text-decoration: none;
     font-size: 20px;
+    border: 1px solid rgb(54, 19, 19);
+    width: 225px;
+    padding: 5px 50px;
+    margin-bottom: 5px;
 }
 
 .contents a:hover {
-    background-color: #4c0505;
-    color: rgb(243, 240, 240);
+    background-color: rgb(54, 19, 19);
+    color: rgb(220, 184, 184);
     font-style: italic;
+    ;
+}
+
+
+ul.skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    justify-content: start;
+    column-gap: 30px;
+
 }
 
 .centered {
     text-align: center;
 }
 
+.justify {
+    text-align: justify
+}
+
 .right {
     text-align: right;
 }
 
+li {
+    padding: 10px;
+    line-height: 1.5;
+}
+
 a:link {
-    color: rgb(225, 15, 155);
+    color: rgb(54, 19, 19);
 }
 
 a:visited {
-    color: rgb(225, 15, 155)
+    color: rgb(54, 19, 19);
 }
 
 a:hover {
     color: hotpink
 }
 
+
+/*
 a:active {
     color: rgb(76, 32, 54)
-}
+}*/
 
-
+/*
 #aboutme {
-    margin-top: 20px;
     color: rgb(87, 0, 0);
     display: flex;
-    flex-direction: row;
-    gap: 2em;
-    /* Add space between children */
-}
+    flex-wrap: wrap;
 
-.aboutme {
-    max-width: 500px;
-}
+}*/
+
 
 footer {
     background-color: rgb(220, 184, 184);
+    padding-bottom: 10px;
 }
