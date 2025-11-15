@@ -36,5 +36,5 @@ document.addEventListener('DOMContentLoaded', () => {
   showSlide(currentSlide);
 
   // Change slide every 5 seconds (adjust as needed)
-  setInterval(nextSlide, 7000);
+  setInterval(nextSlide, 5000);
 });

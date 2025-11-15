@@ -1,6 +1,6 @@
 body {
     color: rgb(54, 19, 19);
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: auto;
 
     /* <weight>: Use a value from 400 to 900 */
@@ -29,16 +29,15 @@ section {
     justify-content: space-evenly;
     align-items: center;
     padding: 10px;
+    height: 400px;
 }
 
 .headshot img {
-    width: 10rem;
+    width: 15rem;
     border-radius: 50%;
     border-color: rgb(79, 35, 35);
     border-width: 2px;
     border-style: solid;
-
-
 }
 
 .heroimage {
@@ -47,13 +46,12 @@ section {
     background-repeat: no-repeat;
     position: relative;
     width: 100%;
-    background-size: auto;
-    margin: auto;
+    background-size: cover;
 }
 
 h2 {
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
+    text-decoration: double underline;
+    text-decoration-thickness: 1px;
 }
 
 .hero-content {
@@ -71,7 +69,8 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-bottom: 10px;
-    max-width: 1200px;
+    /* max-width: 1200px; */
+
 
 }
 
@@ -86,7 +85,7 @@ h2 {
 }
 
 .navbar a:hover {
-    background-color: rgba(220, 184, 184, 0.5);
+    background-color: rgba(220, 184, 184, 0.6);
     color: rgb(54, 19, 19);
     font-style: italic;
 }
@@ -120,7 +119,7 @@ li {
 .hero-banner-container {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 600px;
     overflow: hidden;
 }
 
@@ -133,7 +132,7 @@ li {
     background-size: cover;
     background-position: center;
     opacity: 0;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 1.5s ease-in-out;
     /* Smooth transition */
     display: flex;
     flex-direction: column;
@@ -158,7 +157,8 @@ a:visited {
 
 a:hover {
     /* filter: brightness(0.2); */
-    color: rgb(50, 100, 50);
+    color: rgb(30, 75, 30);
+    font-size: x-large;
 }
 
 
@@ -166,4 +166,5 @@ a:hover {
 footer {
     background-color: rgb(220, 184, 184);
     padding-bottom: 10px;
+    height: 200px;
 }
